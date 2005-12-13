@@ -83,4 +83,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README UsersGuide
 %attr(750,root,root) %{_sbindir}/*
-%config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/*
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*
