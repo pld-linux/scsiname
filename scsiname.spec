@@ -1,5 +1,5 @@
 Summary:	Utils to manage the Linux SCSI device namespace
-Summary(pl.UTF-8):   Narzędzia do zarządzania przestrzenią nazw urządzeń SCSI pod Linuksem
+Summary(pl.UTF-8):	Narzędzia do zarządzania przestrzenią nazw urządzeń SCSI pod Linuksem
 Name:		scsiname
 Version:	0.1.0
 Release:	0.2
