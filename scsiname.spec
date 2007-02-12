@@ -1,5 +1,5 @@
 Summary:	Utils to manage the Linux SCSI device namespace
-Summary(pl):	Narzêdzia do zarz±dzania przestrzeni± nazw urz±dzeñ SCSI pod Linuksem
+Summary(pl.UTF-8):   NarzÄ™dzia do zarzÄ…dzania przestrzeniÄ… nazw urzÄ…dzeÅ„ SCSI pod Linuksem
 Name:		scsiname
 Version:	0.1.0
 Release:	0.2
@@ -28,24 +28,24 @@ This utility
 - is implemented completely in userspace,
 - is hooked into hotplug framework to automatically assign names.
 
-%description -l pl
-Celem tego projektu jest zarz±dzanie przestrzeni± nazw urz±dzeñ pod
-Linuksem (/dev) tak, ¿eby nazwy urz±dzeñ pozostawa³y takie same
-pomiêdzy uruchomieniami.
+%description -l pl.UTF-8
+Celem tego projektu jest zarzÄ…dzanie przestrzeniÄ… nazw urzÄ…dzeÅ„ pod
+Linuksem (/dev) tak, Å¼eby nazwy urzÄ…dzeÅ„ pozostawaÅ‚y takie same
+pomiÄ™dzy uruchomieniami.
 
-Obecnie w Linuksie istnieje potencjalna mo¿liwo¶æ przesuniêcia nazwy.
-Aktualnie nazwy urz±dzeñ s± nadawane w zale¿no¶ci od kolejno¶ci
-wykrywania lub topologii. Kiedy zmienia siê konfiguracja sprzêtu lub
-zachodzi awaria sprzêtowa, mog± wyst±piæ ró¿ne przypisania nazw. Aby
-zapobiec tym przesuniêciom dostêpne s± dwa narzêdzia pozwalaj±ce na
-nazwanie urz±dzenia w oparciu o charakterystykê samego urz±dzenia.
+Obecnie w Linuksie istnieje potencjalna moÅ¼liwoÅ›Ä‡ przesuniÄ™cia nazwy.
+Aktualnie nazwy urzÄ…dzeÅ„ sÄ… nadawane w zaleÅ¼noÅ›ci od kolejnoÅ›ci
+wykrywania lub topologii. Kiedy zmienia siÄ™ konfiguracja sprzÄ™tu lub
+zachodzi awaria sprzÄ™towa, mogÄ… wystÄ…piÄ‡ rÃ³Å¼ne przypisania nazw. Aby
+zapobiec tym przesuniÄ™ciom dostÄ™pne sÄ… dwa narzÄ™dzia pozwalajÄ…ce na
+nazwanie urzÄ…dzenia w oparciu o charakterystykÄ™ samego urzÄ…dzenia.
 
-To narzêdzie:
-- wykorzystuje interfejs j±dra SCSI sg do zgromadzenia informacji o
-  urz±dzeniu,
-- jest przeznaczone specjalnie dla urz±dzeñ SCSI,
-- jest zaimplementowane ca³kowicie w przestrzeni u¿ytkownika,
-- jest podpiête do ¶rodowiska hotplug, aby automatycznie przypisywaæ
+To narzÄ™dzie:
+- wykorzystuje interfejs jÄ…dra SCSI sg do zgromadzenia informacji o
+  urzÄ…dzeniu,
+- jest przeznaczone specjalnie dla urzÄ…dzeÅ„ SCSI,
+- jest zaimplementowane caÅ‚kowicie w przestrzeni uÅ¼ytkownika,
+- jest podpiÄ™te do Å›rodowiska hotplug, aby automatycznie przypisywaÄ‡
   nazwy.
 
 %prep
